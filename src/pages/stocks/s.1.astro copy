@@ -41,24 +41,6 @@ const metadata = {
     </Fragment>
 
     <Fragment slot="subtitle">
-      <CallToAction
-    actions={[
-      {
-        variant: 'primary',
-        target: '_blank',
-        text: 'Get templates',
-        href: 'https://github.com/arthelokyo/astrowind',
-        icon: 'tabler:download',
-      },
-    ]}
-  >
-    <Fragment slot="title">Be a part of our vision</Fragment>
-
-    <Fragment slot="subtitle">
-      Discover a dynamic work environment, unparalleled growth opportunities, and the chance to make a meaningful
-      impact.
-    </Fragment>
-  </CallToAction>
       Step into the spotlight with <span class="font-semibold">Astrowind</span> templates, your pathway to fortifying your
       startup's digital footprint, fostering credibility, and expanding your reach.
     </Fragment>
