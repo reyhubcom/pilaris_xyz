@@ -14,7 +14,7 @@ import Brands from '~/components/widgets/Brands.astro';
 import { YouTube } from 'astro-embed';
 
 const metadata = {
-  title: 'Startup Landing Page',
+  title: '',
 };
 ---
 
@@ -22,14 +22,17 @@ const metadata = {
   <!-- Hero Widget ******************* -->
 
   <Hero
-    tagline="Startup Web Demo"
+    tagline=""
     actions={[
      
     ]}
   >
     <Fragment slot="title">
-      Web3 <span class="hidden sm:inline"></span> Crypto <span
-        class="text-accent dark:text-white">&</span
+      <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.7.1/dist/dotlottie-wc.js" type="module"></script>
+<dotlottie-wc src="https://lottie.host/91904867-6144-4f51-b3b2-34f41b37f8f4/HTIeBdaGsH.lottie" speed="1" style="width: 100%; height: 100px" mode="forward" loop autoplay></dotlottie-wc>
+
+       <span class="hidden sm:inline"></span> Crypto <span
+        class="text-accent dark:text-white"></span
       > Exchange
     </Fragment>
  <Fragment slot="subtitle">
