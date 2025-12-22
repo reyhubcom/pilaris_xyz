@@ -24,7 +24,7 @@ export const headerData = {
       ],
     },
     {
-      text: 'Prodacts',
+      text: 'Products',
       links: [
         {
           text: 'Stocks',
