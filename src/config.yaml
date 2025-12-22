@@ -1,6 +1,6 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name: Pilaris.xyz
+  site: 'https://pilaris.xyz'
   base: '/'
   trailingSlash: false
 
@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    default: Pilaris.xyz
+    template: 'Pilaris.xyz'
+  description: " Crypto staking is locking up your cryptocurrency to support a blockchain network's operations, like validating transactions, in exchange for earning rewards, similar to earning interest on savings, but for a cause. It's a core part of Proof-of-Stake (PoS) systems, providing security and efficiency without the heavy energy use of mining, and lets you grow your holdings by helping the network function."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: Pilaris.xyz
     images:
       - url: '~/assets/images/default.png'
         width: 1200
@@ -69,4 +69,4 @@ analytics:
       id: null # or "G-XXXXXXXXXX"
 
 ui:
-  theme: 'system' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
+  theme: 'system' # Values: "system" | "dark" | "dark" | "dark:only" | "dark:only"
