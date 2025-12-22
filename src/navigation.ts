@@ -10,15 +10,15 @@ export const headerData = {
           href: getPermalink('/bitcoin/btc.1'),
         },
         {
-          text: 'Startup',
+          text: 'Stake ETH',
           href: getPermalink('/homes/startup'),
         },
         {
-          text: 'Mobile App',
+          text: 'Stake BNB',
           href: getPermalink('/homes/mobile-app'),
         },
         {
-          text: 'Personal',
+          text: 'Stake SOL',
           href: getPermalink('/homes/personal'),
         },
       ],
@@ -166,17 +166,17 @@ export const footerData = {
     },
   ],
   secondaryLinks: [
-    { text: 'Terms', href: getPermalink('/terms') },
-    { text: 'Privacy Policy', href: getPermalink('/privacy') },
+    { text: 'Terms', href: getPermalink('#') },
+    { text: 'Privacy Policy', href: getPermalink('#') },
   ],
   socialLinks: [
     { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
-    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/arthelokyo/astrowind' },
+    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/' },
   ],
   footNote: `
-    Made by <a class="text-blue-600 underline dark:text-muted" href="https://github.com/"> Rey</a> · 2025 Pilaris.xyz  All Rights Reserved.
+    Made by <a class="text-blue-600 underline dark:text-muted" href="https://github.com/"> Rey</a> · 2026 Pilaris.xyz  All Rights Reserved.
   `,
 };
