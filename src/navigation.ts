@@ -86,7 +86,7 @@ export const headerData = {
       ],
     },
     {
-      text: 'Blog',
+      text: 'Protocols',
       links: [
         {
           text: 'Blog List',
