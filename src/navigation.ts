@@ -15,7 +15,7 @@ export const headerData = {
         },
         {
           text: 'Stake BNB',
-          href: getPermalink('/homes/mobile-app'),
+          href: getPermalink('/binance/bnb.1'),
         },
         {
           text: 'Stake SOL',
