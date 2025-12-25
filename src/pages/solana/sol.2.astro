@@ -14,12 +14,12 @@ import Brands from '~/components/widgets/Brands.astro';
 import { YouTube } from 'astro-embed';
 
 const metadata = {
-  title: 'Bitcoin Staking',
+  title: 'Solana Staking',
 };
 ---
 
 <Layout metadata={metadata}>
-  <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=68f5508a4f065effd6283e6b&product=sop' async='async'></script>
+ <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=69493e04140a94718a7aec30&product=sop' async='async'></script>
   <!-- Hero Widget ******************* -->
 
   <Hero
@@ -28,36 +28,36 @@ const metadata = {
       {
         variant: 'secondary',
         target: '_blank',
-        text: 'Stacks',
-        href: 'https://app.stackingdao.com/',
+        text: 'Meteora',
+        href: 'https://app.meteora.ag/starter',
         icon: 'tabler:link',
       },
       {
         variant: 'secondary',
         target: '_blank',
-        text: 'Hermetica',
-        href: 'https://app.hermetica.fi/portfolio',
+        text: 'Exponent',
+        href: 'https://www.exponent.finance/liquidity',
         icon: 'tabler:link',
       },
        {
         variant: 'secondary',
         target: '_blank',
-        text: 'Velar',
-        href: 'https://velar.com/',
+        text: 'Marinade',
+        href: 'https://marinade.finance/',
         icon: 'tabler:link',
       },
        {
         variant: 'secondary',
         target: '_blank',
-        text: 'Asigna',
-        href: 'https://www.asigna.io/',
+        text: 'Jup.Ag',
+        href: 'https://jup.ag/stake',
         icon: 'tabler:link',
       },
        {
         variant: 'secondary',
         target: '',
         text: 'Staking',
-        href: '/bitcoin/btc.2',
+        href: '/solana/sol.1',
         icon: 'tabler:circle-arrow-up-right',
       },
        
@@ -66,8 +66,15 @@ const metadata = {
     <Fragment slot="title">
        <span class="hidden sm:inline"></span>  <span
         class="text-accent dark:text-white"></span
-      > Bitcoin Staking
-    </Fragment>
+      > Solana Staking
+      </Fragment>
+   <Fragment slot="subtitle">
+      <span class="hidden sm:inline">
+        <span class="font-semibold">DeFi </span> Liquidity Protocol on Solana
+        </span
+       
+      >
+</Fragment>
 
     <Fragment slot="subtitle">
     <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script> <div class="livecoinwatch-widget-5" lcw-base="USD" lcw-color-tx="#0693e3" lcw-marquee-1="coins" lcw-marquee-2="movers" lcw-marquee-items="30" ></div>
@@ -75,7 +82,7 @@ const metadata = {
  <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>
-  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/BTCUSD/?exchange=CRYPTO" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a><span class="trademark"></span></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/SOLUSD/?exchange=COINBASE" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a><span class="trademark"></span></div>
   <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
   {
   "lineWidth": 2,
@@ -104,7 +111,7 @@ const metadata = {
   "changeMode": "price-and-percent",
   "symbols": [
     [
-      "CRYPTO:BTCUSD|1M"
+      "COINBASE:SOLUSD|1M"
     ]
   ],
   "dateRanges": [
@@ -119,7 +126,7 @@ const metadata = {
   "headerFontSize": "medium",
   "autosize": false,
   "width": "100%",
-  "height": 550,
+  "height": "550",
   "noTimeScale": false,
   "hideDateRanges": false,
   "hideMarketStatus": false,
@@ -138,8 +145,8 @@ const metadata = {
   <!-- Features2 Widget ************** -->
 
   <Features2
-    title="Stake Your Bitcoin, Earn Reward"
-    subtitle="Unleash your Bitcoin’s potential with Babylon and Stacks. Earn rewards through innovative staking solutions while maintaining the security of your BTC. Join the evolution of Bitcoin utility and start maximizing your holdings today."
+    title="Stake Your Solana, Earn Reward"
+    subtitle="Solana (SOL) staking is locking your SOL tokens to support the network's Proof-of-Stake (PoS) security, allowing you to earn rewards, similar to earning interest, while validators process transactions. You delegate your SOL to a validator, increasing their voting power, and in return, get a portion of the rewards, minus the validator's commission fee. It's a way to earn passive income and help maintain Solana's high-speed blockchain."
   >
    
   </Features2>
@@ -152,9 +159,8 @@ const metadata = {
   (function(){var w=window;if(w.ChannelIO){return w.console.error("ChannelIO script included twice.");}var ch=function(){ch.c(arguments);};ch.q=[];ch.c=function(args){ch.q.push(args);};w.ChannelIO=ch;function l(){if(w.ChannelIOInitialized){return;}w.ChannelIOInitialized=true;var s=document.createElement("script");s.type="text/javascript";s.async=true;s.src="https://cdn.channel.io/plugin/ch-plugin-web.js";var x=document.getElementsByTagName("script")[0];if(x.parentNode){x.parentNode.insertBefore(s,x);}}if(document.readyState==="complete"){l();}else{w.addEventListener("DOMContentLoaded",l);w.addEventListener("load",l);}})();
 
   ChannelIO('boot', {
-    "pluginKey": "d8136106-354a-4734-adb1-21da70253c66"
+    "pluginKey": "ef01fdf0-565b-47c8-a82a-3c2439a8d559"
   });
 </script>
- 
   
 </Layout>
