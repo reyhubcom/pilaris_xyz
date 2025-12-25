@@ -28,7 +28,7 @@ export const headerData = {
       links: [
         {
           text: 'Stocks',
-          href: getPermalink('/stocks/#.1'),
+          href: getPermalink('/stocks/s.1'),
         },
         {
           text: 'MEME Coins',
