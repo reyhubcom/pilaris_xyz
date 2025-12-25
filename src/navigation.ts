@@ -90,7 +90,7 @@ export const headerData = {
       links: [
         {
           text: 'Ethereum',
-            href: getPermalink('/ethereum/eth.1'),
+            href: getPermalink('/protocol.eth/eth.1'),
         },
         {
           text: 'Article',
