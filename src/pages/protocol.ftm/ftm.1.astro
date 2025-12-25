@@ -14,7 +14,7 @@ import Brands from '~/components/widgets/Brands.astro';
 import { YouTube } from 'astro-embed';
 
 const metadata = {
-  title: 'All Protocol',
+  title: 'Binance Yield',
 };
 ---
 
@@ -28,36 +28,36 @@ const metadata = {
       {
         variant: 'secondary',
         target: '_blank',
-        text: 'Fantom',
-        href: '/protocol.ftm/ftm.1',
+        text: 'Pancake',
+        href: 'https://pancakeswap.finance/',
         icon: 'tabler:link',
       },
       {
         variant: 'secondary',
         target: '_blank',
-        text: 'Hermetica',
-        href: 'https://app.hermetica.fi/portfolio',
+        text: 'Lista.fi',
+        href: 'https://lista.org/',
         icon: 'tabler:link',
       },
        {
         variant: 'secondary',
         target: '_blank',
-        text: 'Velar',
-        href: 'https://velar.com/',
+        text: 'Ether.fi',
+        href: 'https://www.ether.fi/',
         icon: 'tabler:link',
       },
        {
         variant: 'secondary',
         target: '_blank',
-        text: 'Asigna',
-        href: 'https://www.asigna.io/',
+        text: 'SKY.Money',
+        href: 'https://app.sky.money/',
         icon: 'tabler:link',
       },
        {
         variant: 'secondary',
         target: '',
-        text: 'Protocols',
-        href: '/all/protocol.1',
+        text: 'Staking',
+        href: '/protocol.eth/eth.2',
         icon: 'tabler:circle-arrow-up-right',
       },
        
@@ -66,11 +66,11 @@ const metadata = {
     <Fragment slot="title">
        <span class="hidden sm:inline"></span>  <span
         class="text-accent dark:text-white"></span
-      > All Protocol
+      > Binance Yield
       </Fragment>
    <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        <span class="font-semibold">Liquidity </span>All Protocol on Blockchain
+        <span class="font-semibold">DeFi </span> Liquidity Protocol on Binance
         </span
        
       >
@@ -79,8 +79,51 @@ const metadata = {
     <Fragment slot="subtitle">
     <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script> <div class="livecoinwatch-widget-5" lcw-base="USD" lcw-color-tx="#0693e3" lcw-marquee-1="coins" lcw-marquee-2="movers" lcw-marquee-items="30" ></div>
 
- <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.7.1/dist/dotlottie-wc.js" type="module"></script>
-<dotlottie-wc src="https://lottie.host/a24215aa-7cb7-4bd4-a60a-0320f876091f/VTbycJ2TWx.lottie" speed="1" style="width: 100%; height: 550px" mode="forward" loop autoplay></dotlottie-wc>
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a><span class="trademark"> </span></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+  {
+  "colorTheme": "dark",
+  "dateRange": "1D",
+  "locale": "en",
+  "largeChartUrl": "",
+  "isTransparent": true,
+  "showFloatingTooltip": false,
+  "plotLineColorGrowing": "rgba(34, 171, 148, 1)",
+  "plotLineColorFalling": "rgba(247, 82, 95, 1)",
+  "gridLineColor": "rgba(255, 255, 255, 0)",
+  "scaleFontColor": "#DBDBDB",
+  "belowLineFillColorGrowing": "rgba(41, 98, 255, 0.12)",
+  "belowLineFillColorFalling": "rgba(41, 98, 255, 0.12)",
+  "belowLineFillColorGrowingBottom": "rgba(41, 98, 255, 0)",
+  "belowLineFillColorFallingBottom": "rgba(41, 98, 255, 0)",
+  "symbolActiveColor": "rgba(41, 98, 255, 0.12)",
+  "tabs": [
+    {
+      "title": "Binance Protocol",
+      "symbols": [
+        {
+          "s": "BINANCE:BNBUSD",
+          "d": "",
+          "base-currency-logoid": "crypto/XTVCBNB",
+          "currency-logoid": "country/US"
+        }
+      ],
+      "originalTitle": "Indices"
+    }
+  ],
+  "support_host": "https://www.tradingview.com",
+  "backgroundColor": "#0f0f0f",
+  "width": "100%",
+  "height": "550",
+  "showSymbolLogo": true,
+  "showChart": true
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
     </Fragment>
 
     <Fragment slot="image">
@@ -91,8 +134,8 @@ const metadata = {
   <!-- Features2 Widget ************** -->
 
   <Features2
-    title="Key Fuctions of A Blockchain Protocol"
-    subtitle="A blockchain protocol is the fundamental set of rules, like a digital constitution, that governs how a specific blockchain network operates, dictating data structure, transaction validation, consensus (how nodes agree), security, and node communication to maintain a decentralized, secure, and shared ledger. It's the underlying tech backbone for platforms like Bitcoin or Ethereum, defining their unique characteristics, such as consensus mechanisms (e.g., Proof-of-Work) and smart contract capabilities, enabling trust and immutability without central authority."
+    title="Stake Your Binance, Earn Reward"
+    subtitle="Binance Staking lets you earn passive income by locking up your Proof-of-Stake (PoS) cryptocurrencies to support blockchain networks, similar to earning interest in a bank, with options like Flexible (withdraw anytime, lower reward) or Locked (fixed term, higher reward) staking. Users easily participate through the Binance platform, receiving rewards for helping validate transactions and secure the network, making it a simple way to grow crypto holdings without the technical hassle of running nodes."
   >
    
   </Features2>
