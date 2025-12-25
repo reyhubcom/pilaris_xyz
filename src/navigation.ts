@@ -97,16 +97,16 @@ export const headerData = {
          href: getPermalink('/protocol.bnb/bnb.1'),
         },
         {
-          text: 'Article (with MDX)',
-          href: getPermalink('markdown-elements-demo-post', 'post'),
+          text: 'Gnosis',
+           href: getPermalink('/protocol.eth/eth.1'),
         },
         {
-          text: 'Category Page',
-          href: getPermalink('tutorials', 'category'),
+          text: 'Polygon',
+           href: getPermalink('/protocol.eth/eth.1'),
         },
         {
-          text: 'Tag Page',
-          href: getPermalink('astro', 'tag'),
+          text: 'All Protocols',
+           href: getPermalink('/all/protocol.1'),
         },
       ],
     },
