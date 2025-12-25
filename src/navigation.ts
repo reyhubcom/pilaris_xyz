@@ -89,8 +89,8 @@ export const headerData = {
       text: 'Protocols',
       links: [
         {
-          text: 'Blog List',
-          href: getBlogPermalink(),
+          text: 'Ethereum',
+            href: getPermalink('/ethereum/eth.1'),
         },
         {
           text: 'Article',
