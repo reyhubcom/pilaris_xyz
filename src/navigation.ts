@@ -93,8 +93,8 @@ export const headerData = {
             href: getPermalink('/protocol.eth/eth.1'),
         },
         {
-          text: 'Article',
-          href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
+          text: 'Binance',
+         href: getPermalink('/protocol.bnb/bnb.1'),
         },
         {
           text: 'Article (with MDX)',
