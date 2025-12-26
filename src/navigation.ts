@@ -102,7 +102,7 @@ export const headerData = {
         },
         {
           text: 'Polygon',
-           href: getPermalink('/protocol.eth/eth.1'),
+           href: getPermalink('/protocol.pol/pol.1'),
         },
         {
           text: 'All Protocols',
