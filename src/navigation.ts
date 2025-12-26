@@ -97,8 +97,8 @@ export const headerData = {
          href: getPermalink('/protocol.bnb/bnb.1'),
         },
         {
-          text: 'Gnosis',
-           href: getPermalink('/protocol.eth/eth.1'),
+          text: 'Starknet',
+           href: getPermalink('/protocol.strk/strk.1'),
         },
         {
           text: 'Polygon',
