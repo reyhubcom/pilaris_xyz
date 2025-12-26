@@ -14,7 +14,7 @@ import Brands from '~/components/widgets/Brands.astro';
 import { YouTube } from 'astro-embed';
 
 const metadata = {
-  title: 'All Protocol',
+  title: 'Fantom Yield',
 };
 ---
 
@@ -27,37 +27,37 @@ const metadata = {
      actions={[
       {
         variant: 'secondary',
-        target: '',
-        text: 'Fantom',
-        href: '/protocol.ftm/ftm.1',
+        target: '_blank',
+        text: 'Beefy',
+        href: 'https://app.beefy.com/',
         icon: 'tabler:link',
       },
       {
         variant: 'secondary',
-        target: '',
-        text: 'Avalanche',
-        href: '/protocol.avax/avax.1',
+        target: '_blank',
+        text: 'Yearn.fi',
+        href: 'https://yearn.fi/',
         icon: 'tabler:link',
       },
        {
         variant: 'secondary',
         target: '_blank',
-        text: 'Velar',
-        href: 'https://velar.com/',
+        text: 'Tomb.fi',
+        href: 'https://tomb.com/',
         icon: 'tabler:link',
       },
        {
         variant: 'secondary',
         target: '_blank',
-        text: 'Asigna',
-        href: 'https://www.asigna.io/',
+        text: 'Trade.li',
+        href: 'https://trade.lif3.com/trade?chainId=250',
         icon: 'tabler:link',
       },
        {
         variant: 'secondary',
         target: '',
-        text: 'Protocols',
-        href: '/all/protocol.1',
+        text: 'Staking',
+        href: '/protocol.ftm/ftm.1',
         icon: 'tabler:circle-arrow-up-right',
       },
        
@@ -66,11 +66,11 @@ const metadata = {
     <Fragment slot="title">
        <span class="hidden sm:inline"></span>  <span
         class="text-accent dark:text-white"></span
-      > All Protocol
+      > Fantom Yield
       </Fragment>
    <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        <span class="font-semibold">Liquidity </span>All Protocol on Blockchain
+        <span class="font-semibold">DeFi </span> Liquidity Protocol on Fantom
         </span
        
       >
@@ -79,8 +79,51 @@ const metadata = {
     <Fragment slot="subtitle">
     <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script> <div class="livecoinwatch-widget-5" lcw-base="USD" lcw-color-tx="#0693e3" lcw-marquee-1="coins" lcw-marquee-2="movers" lcw-marquee-items="30" ></div>
 
- <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.7.1/dist/dotlottie-wc.js" type="module"></script>
-<dotlottie-wc src="https://lottie.host/a24215aa-7cb7-4bd4-a60a-0320f876091f/VTbycJ2TWx.lottie" speed="1" style="width: 100%; height: 550px" mode="forward" loop autoplay></dotlottie-wc>
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a><span class="trademark"> </span></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+  {
+  "colorTheme": "dark",
+  "dateRange": "1M",
+  "locale": "en",
+  "largeChartUrl": "",
+  "isTransparent": true,
+  "showFloatingTooltip": false,
+  "plotLineColorGrowing": "rgba(34, 171, 148, 1)",
+  "plotLineColorFalling": "rgba(247, 82, 95, 1)",
+  "gridLineColor": "rgba(255, 255, 255, 0)",
+  "scaleFontColor": "rgba(255, 255, 255, 1)",
+  "belowLineFillColorGrowing": "rgba(41, 98, 255, 0.12)",
+  "belowLineFillColorFalling": "rgba(41, 98, 255, 0.12)",
+  "belowLineFillColorGrowingBottom": "rgba(41, 98, 255, 0)",
+  "belowLineFillColorFallingBottom": "rgba(41, 98, 255, 0)",
+  "symbolActiveColor": "rgba(41, 98, 255, 0.12)",
+  "tabs": [
+    {
+      "title": "Fantom Protocol",
+      "symbols": [
+        {
+          "s": "CRYPTO:FTMUSD",
+          "d": "",
+          "base-currency-logoid": "crypto/XTVCFTM",
+          "currency-logoid": "country/US"
+        }
+      ],
+      "originalTitle": "Indices"
+    }
+  ],
+  "support_host": "https://www.tradingview.com",
+  "backgroundColor": "#0f0f0f",
+  "width": "100%",
+  "height": "550",
+  "showSymbolLogo": true,
+  "showChart": true
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
     </Fragment>
 
     <Fragment slot="image">
@@ -91,8 +134,8 @@ const metadata = {
   <!-- Features2 Widget ************** -->
 
   <Features2
-    title="Key Fuctions of A Blockchain Protocol"
-    subtitle="A blockchain protocol is the fundamental set of rules, like a digital constitution, that governs how a specific blockchain network operates, dictating data structure, transaction validation, consensus (how nodes agree), security, and node communication to maintain a decentralized, secure, and shared ledger. It's the underlying tech backbone for platforms like Bitcoin or Ethereum, defining their unique characteristics, such as consensus mechanisms (e.g., Proof-of-Work) and smart contract capabilities, enabling trust and immutability without central authority."
+    title="Stake Your Fantom, Earn Reward"
+    subtitle="Fantom staking is locking your FTM tokens to help secure the network and validate transactions on its Proof-of-Stake blockchain, earning you passive rewards in FTM. You can delegate your FTM to validators for rewards without technical know-how, or for more flexibility, use liquid staking services like Ankr or Beethoven X to get reward-bearing tokens (e.g., ankrFTM, sFTM) that remain usable in DeFi. Fantom offers flexible staking with options for longer lock-up periods for higher Annual Percentage Yield (APY) or instant staking with a lower rate."
   >
    
   </Features2>
