@@ -14,7 +14,7 @@ import Brands from '~/components/widgets/Brands.astro';
 import { YouTube } from 'astro-embed';
 
 const metadata = {
-  title: 'Avalanche Yield',
+  title: 'Optimism Yield',
 };
 ---
 
@@ -28,8 +28,8 @@ const metadata = {
       {
         variant: 'secondary',
         target: '_blank',
-        text: 'Silo.fi',
-        href: 'https://app.silo.finance/earn',
+        text: 'Extra.fi',
+        href: 'https://app.extrafi.io/farm',
         icon: 'tabler:link',
       },
       {
@@ -66,11 +66,11 @@ const metadata = {
     <Fragment slot="title">
        <span class="hidden sm:inline"></span>  <span
         class="text-accent dark:text-white"></span
-      > Avalanche Yield
+      > Optimism Yield
       </Fragment>
    <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        <span class="font-semibold">DeFi </span> Liquidity Protocol on Avalanche
+        <span class="font-semibold">DeFi </span> Liquidity Protocol on Optimism
         </span
        
       >
@@ -86,7 +86,7 @@ const metadata = {
   <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
   {
   "colorTheme": "dark",
-  "dateRange": "1M",
+  "dateRange": "1D",
   "locale": "en",
   "largeChartUrl": "",
   "isTransparent": true,
@@ -94,7 +94,7 @@ const metadata = {
   "plotLineColorGrowing": "rgba(34, 171, 148, 1)",
   "plotLineColorFalling": "rgba(247, 82, 95, 1)",
   "gridLineColor": "rgba(255, 255, 255, 0)",
-  "scaleFontColor": "rgba(255, 255, 255, 1)",
+  "scaleFontColor": "#DBDBDB",
   "belowLineFillColorGrowing": "rgba(41, 98, 255, 0.12)",
   "belowLineFillColorFalling": "rgba(41, 98, 255, 0.12)",
   "belowLineFillColorGrowingBottom": "rgba(41, 98, 255, 0)",
@@ -102,12 +102,12 @@ const metadata = {
   "symbolActiveColor": "rgba(41, 98, 255, 0.12)",
   "tabs": [
     {
-      "title": "Avalanche Protocol",
+      "title": "Optimism Protocols",
       "symbols": [
         {
-          "s": "COINBASE:AVAXUSD",
+          "s": "COINBASE:OPUSD",
           "d": "",
-          "base-currency-logoid": "crypto/XTVCAVAX",
+          "base-currency-logoid": "crypto/XTVCOP",
           "currency-logoid": "country/US"
         }
       ],
@@ -134,8 +134,8 @@ const metadata = {
   <!-- Features2 Widget ************** -->
 
   <Features2
-    title="Stake Your Avalanche, Earn Reward"
-    subtitle="Avalanche staking is locking your native AVAX tokens to support the network's Proof-of-Stake (PoS) security, enabling transaction validation and earning rewards in AVAX as compensation for securing the blockchain, similar to a security deposit. You delegate your tokens to a validator node, which uses them to verify transactions, and in return, you receive a share of the network's generated rewards, minus a small fee paid to the validator."
+    title="Stake Your Optimism, Earn Reward"
+    subtitle="Optimism staking refers to locking up the native OP token or staked ETH (like weETH) on the Optimism Layer 2 blockchain to earn rewards, support the network's security and decentralization, and provide liquidity for DeFi, with the Optimism Collective actively promoting liquid staking through partners like Ether.fi to boost its Superchain ecosystems economic activity and governance. Its a core part of Optimisms strategy to foster a robust scalable Ethereum L2 environment."
   >
    
   </Features2>
