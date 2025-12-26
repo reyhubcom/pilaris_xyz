@@ -14,7 +14,7 @@ import Brands from '~/components/widgets/Brands.astro';
 import { YouTube } from 'astro-embed';
 
 const metadata = {
-  title: 'Binance Yield',
+  title: 'Fantom Yield',
 };
 ---
 
@@ -70,7 +70,7 @@ const metadata = {
       </Fragment>
    <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        <span class="font-semibold">DeFi </span> Liquidity Protocol on Binance
+        <span class="font-semibold">DeFi </span> Liquidity Protocol on Fantom
         </span
        
       >
@@ -86,7 +86,7 @@ const metadata = {
   <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
   {
   "colorTheme": "dark",
-  "dateRange": "1D",
+  "dateRange": "1M",
   "locale": "en",
   "largeChartUrl": "",
   "isTransparent": true,
@@ -94,7 +94,7 @@ const metadata = {
   "plotLineColorGrowing": "rgba(34, 171, 148, 1)",
   "plotLineColorFalling": "rgba(247, 82, 95, 1)",
   "gridLineColor": "rgba(255, 255, 255, 0)",
-  "scaleFontColor": "#DBDBDB",
+  "scaleFontColor": "rgba(255, 255, 255, 1)",
   "belowLineFillColorGrowing": "rgba(41, 98, 255, 0.12)",
   "belowLineFillColorFalling": "rgba(41, 98, 255, 0.12)",
   "belowLineFillColorGrowingBottom": "rgba(41, 98, 255, 0)",
@@ -102,12 +102,12 @@ const metadata = {
   "symbolActiveColor": "rgba(41, 98, 255, 0.12)",
   "tabs": [
     {
-      "title": "Binance Protocol",
+      "title": "Fantom Protocol",
       "symbols": [
         {
-          "s": "BINANCE:BNBUSD",
+          "s": "CRYPTO:FTMUSD",
           "d": "",
-          "base-currency-logoid": "crypto/XTVCBNB",
+          "base-currency-logoid": "crypto/XTVCFTM",
           "currency-logoid": "country/US"
         }
       ],
@@ -134,8 +134,8 @@ const metadata = {
   <!-- Features2 Widget ************** -->
 
   <Features2
-    title="Stake Your Binance, Earn Reward"
-    subtitle="Binance Staking lets you earn passive income by locking up your Proof-of-Stake (PoS) cryptocurrencies to support blockchain networks, similar to earning interest in a bank, with options like Flexible (withdraw anytime, lower reward) or Locked (fixed term, higher reward) staking. Users easily participate through the Binance platform, receiving rewards for helping validate transactions and secure the network, making it a simple way to grow crypto holdings without the technical hassle of running nodes."
+    title="Stake Your Fantom, Earn Reward"
+    subtitle="Fantom staking is locking your FTM tokens to help secure the network and validate transactions on its Proof-of-Stake blockchain, earning you passive rewards in FTM. You can delegate your FTM to validators for rewards without technical know-how, or for more flexibility, use liquid staking services like Ankr or Beethoven X to get reward-bearing tokens (e.g., ankrFTM, sFTM) that remain usable in DeFi. Fantom offers flexible staking with options for longer lock-up periods for higher Annual Percentage Yield (APY) or instant staking with a lower rate."
   >
    
   </Features2>
