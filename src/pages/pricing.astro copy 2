@@ -21,23 +21,7 @@ const metadata = {
     subtitle="Choose the perfect plan that aligns with your cosmic goals."
   />
  <CallToAction
-  
-<Hero></Hero>
-    <!-- TradingView Widget BEGIN -->
-<div class="tradingview-widget-container">
-  <div class="tradingview-widget-container__widget"></div>
-  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/NASDAQ-TSLA/" rel="noopener nofollow" target="_blank"><span class="blue-text">TSLA stock price</span></a><span class="trademark"> by TradingView</span></div>
-  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>
-  {
-  "symbol": "NASDAQ:TSLA",
-  "colorTheme": "dark",
-  "isTransparent": true,
-  "locale": "en",
-  "width": "100%"
-}
-  </script>
-</div>
-<!-- TradingView Widget END -->
+    title="Ready to boost your projects?"
     subtitle="Join our community of satisfied customers who have transformed their work with our templates."
     actions={[
       {
