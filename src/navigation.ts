@@ -35,11 +35,11 @@ export const headerData = {
           href: getPermalink('/stocks/s.1'),
         },
         {
-          text: 'MEME Coins',
-          href: getPermalink('/services'),
+          text: 'Liquid',
+          href: getPermalink('/stocks/s.1'),
         },
         {
-          text: 'Pricing',
+          text: 'MEME Coin',
           href: getPermalink('/pricing'),
         },
         {
