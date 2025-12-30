@@ -115,11 +115,11 @@ export const headerData = {
       ],
     },
     {
-      text: 'Widgets',
-      href: '#',
+      text: 'Exchange',
+      href: '/home/exchange',
     },
   ],
-  actions: [{ text: 'EXCHANGE', href: '/home/exchange', target: '' }],
+  actions: [{ text: 'MEME COIN', href: '/meme/coin', target: '' }],
 };
 
 export const footerData = {
