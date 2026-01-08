@@ -64,7 +64,7 @@ export const headerData = {
       text: 'Landing',
       links: [
         {
-          text: 'Lead Generation',
+          text: 'Lend & Borrow',
           href: getPermalink('/landing/lead-generation'),
         },
         {
