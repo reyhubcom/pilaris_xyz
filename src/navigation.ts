@@ -100,11 +100,11 @@ export const headerData = {
       ],
     },
     {
-      text: 'Exchange',
-      href: '/home/exchange',
+      text: 'MEME ',
+      href: '/meme/coin.1',
     },
   ],
-  actions: [{ text: 'MEME COIN', href: '/meme/coin.1', target: '' }],
+  actions: [{ text: 'EXCHANGE', href: '/home/exchange', target: '' }],
 };
 
 export const footerData = {
