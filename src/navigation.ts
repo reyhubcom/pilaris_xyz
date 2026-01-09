@@ -39,25 +39,10 @@ export const headerData = {
           href: getPermalink('/liquid/l.1'),
         },
         {
-          text: 'MEME Coin',
-          href: getPermalink('/pricing'),
+          text: 'XSwap',
+          href: getPermalink('/products/xswap'),
         },
-        {
-          text: 'About us',
-          href: getPermalink('/about'),
-        },
-        {
-          text: 'Contact',
-          href: getPermalink('/contact'),
-        },
-        {
-          text: 'Terms',
-          href: getPermalink('/terms'),
-        },
-        {
-          text: 'Privacy policy',
-          href: getPermalink('/privacy'),
-        },
+       
       ],
     },
     {
