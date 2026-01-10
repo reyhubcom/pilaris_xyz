@@ -112,7 +112,7 @@ export const footerData = {
     {
       title: 'Products',
       links: [
-        { text: 'CoinBrain', href: 'products/coinbrain' },
+        { text: 'CoinBrain', href: "#" },
         { text: 'Security', href: '#' },
         { text: 'Team', href: '#' },
         { text: 'Enterprise', href: '#' },
