@@ -42,6 +42,10 @@ export const headerData = {
           text: 'XSwap',
           href: getPermalink('/products/xswap'),
         },
+        {
+          text: 'CoinBrain',
+          href: getPermalink('/products/coinbrain'),
+        },
        
       ],
     },
