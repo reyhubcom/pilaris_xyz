@@ -110,9 +110,9 @@ export const headerData = {
 export const footerData = {
   links: [
     {
-      title: 'Product',
+      title: 'Products',
       links: [
-        { text: 'Features', href: '#' },
+        { text: 'CoinBrain', href: 'products/coinbrain' },
         { text: 'Security', href: '#' },
         { text: 'Team', href: '#' },
         { text: 'Enterprise', href: '#' },
